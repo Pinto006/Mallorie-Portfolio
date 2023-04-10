@@ -1,8 +1,9 @@
-#container-header{
+#container{
     width: 1000px;
     margin: 20px 100px 90px 60px;
     display: flex;
     flex-wrap: wrap;
+    color: #DE3A24
     
 }
 
@@ -31,16 +32,33 @@
     flex-wrap: wrap;
     justify-content: start;
     
- 
 }
 
-#container-me {
-    width: 1000px;
-    margin: 20px 100px 90px 60px;
+.column-project {
     display: flex;
     flex-wrap: wrap;
+    flex: 0 0 100%;
+    justify-content: center;
+}
+
+.column-project-half {
+    display: flex;
+    justify-content: center;
+}
+.ol {
+    display: flex;
+
 }
 
 .p {
     text-align: center;
+}
+
+.li {
+    align-items: baseline;
+}
+
+footer {
+    font-family: "Brush Script MT", cursive;
+    color: #57C2C2;
 }
