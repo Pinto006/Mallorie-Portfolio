@@ -1,6 +1,14 @@
 body {
     background-color: black;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 5px 10%;
+
+}
 #container{
     width: 1000px;
     /* margin: 20px 100px 90px 60px; */
