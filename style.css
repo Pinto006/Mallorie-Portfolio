@@ -66,6 +66,10 @@ a {
     font-size: larger;
 }
 
+.row-sections:hover {
+ font-style: italic;
+}
+
 /* Project Styling */
 .column-project {
     margin-left: auto;
